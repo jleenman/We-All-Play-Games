@@ -20,11 +20,11 @@
 
 function child_enqueue_style(){
 	wp_register_style( 'bootswatch-stylesheet', get_stylesheet_directory_uri() . '/assets/css/bootswatch/united.min.css', array(), '', 'all' ); 
-	wp_register_style( 'child-stylesheet', get_stylesheet_directory_uri() . '/assets/css/style.min.css', array(), '', 'all' ); 
+	wp_register_style( 'child-stylesheet', get_stylesheet_directory_uri() . '/assets/css/style.css', array(), '', 'all' ); 
 	
 	// $drive = 'https://googledrive.com/host/0B7TOrP4Epw5ZYmIwMm10SEhFcDA';
 	// $dir = '/Vassal/accessibility';
-	// wp_register_style( 'child-stylesheet', $drive . $dir . '/css/style.min.css', array(), '', 'all' ); 
+	// wp_register_style( 'child-stylesheet', $drive . $dir . '/css/style.css', array(), '', 'all' ); 
 
 	wp_enqueue_style( 'bootswatch-stylesheet' );
 	wp_enqueue_style( 'child-stylesheet' );
