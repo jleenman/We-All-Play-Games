@@ -1,6 +1,6 @@
 <?php
 /**
- * Custom functions
+ * Custom Post Type functions
  */
 
 //	Adding a roots_wrap_base filter
